@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerkalianActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/holo_green_light"
+            android:text="Perkalian" />
+
+        <EditText
+            android:id="@+id/editKali1"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-110dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="x"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editKali2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginTop="50dp"
+            android:text="=" />
+
+        <EditText
+            android:id="@+id/editKali3"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnKali"
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-370dp"
+            android:layout_marginTop="100dp"
+            android:text="Hitung" />
+
+    </LinearLayout>
+</FrameLayout>
