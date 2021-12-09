@@ -8,3 +8,5 @@
 - Widget & Dialog Box [[📂](https://github.com/Bayunova28/Mobile_Application_and_Development/tree/main/Widget%20%26%20Dialog%20Box)]
 - Intent [[📂](https://github.com/Bayunova28/Mobile_Application_and_Development/tree/main/Intent)]
 - Fragment [[📂](https://github.com/Bayunova28/Mobile_Application_and_Development/tree/main/Fragment)]
+- Webview and Viewpager [[📂](https://github.com/Bayunova28/Mobile_Application_and_Development/tree/main/Webview%20and%20Viewpager)]
+- SQL Database [[📂](https://github.com/Bayunova28/Mobile_Application_and_Development/tree/main/SQL%20Database)]
