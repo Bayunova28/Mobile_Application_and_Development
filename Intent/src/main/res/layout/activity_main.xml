@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnActivity1"
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="ACTIVITY 1" />
+
+        <Button
+            android:id="@+id/btnActivity2"
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-394dp"
+            android:layout_marginTop="60dp"
+            android:text="ACTIVITY 2" />
+
+        <Button
+            android:id="@+id/btnActivity3"
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-392dp"
+            android:layout_marginTop="110dp"
+            android:text="ACTIVITY 3" />
+
+        <Button
+            android:id="@+id/btnActivity4"
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-392dp"
+            android:layout_marginTop="160dp"
+            android:text="ACTIVITY 4" />
+
+        <Button
+            android:id="@+id/btnForm"
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-392dp"
+            android:layout_marginTop="210dp"
+            android:text="FORM PENDAFTARAN" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-392dp"
+            android:layout_marginTop="257dp"
+            android:ems="10"
+            android:hint="Masukkan Nama"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
